@@ -90,7 +90,7 @@ int main()
     else if (pilihan == 2)
     {
         selectionSort(nama, alamat, n);
-        cout << "Setelah data berhasil diurutkan menggunakan Bubble Sort" << endl;
+        cout << "Setelah data berhasil diurutkan menggunakan Selection Sort" << endl;
     }
     else
     {
