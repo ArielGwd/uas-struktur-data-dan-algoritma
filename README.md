@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/de95c116-f1b1-4c73-b77d-1ad06e96bbad)# :desktop_computer: UAS Struktur Data dan Algoritma IT201
+# :desktop_computer: UAS Struktur Data dan Algoritma IT201
 berikut adalah penjelasan dari kode program terkait soal UAS Struktur Data dan Algoritma
 
 # :scroll: Penjelasan
