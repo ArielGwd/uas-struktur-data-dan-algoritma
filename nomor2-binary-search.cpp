@@ -26,30 +26,30 @@ void bubbleSort(int arr[], int n)
 
 int binarySearch(int arr[], int size, int input)
 {
-    int left = 0;
-    int right = size - 1;
+    int kiri = 0;
+    int kanan = size - 1;
     int target = input;
 
-    while (left <= right)
+    while (kiri <= kanan)
     {
-        int mid = left + (right - left) / 2;
-        if (arr[mid] == target)
+        int tengah = kiri + (kanan - kiri) / 2;
+        if (arr[tengah] == target)
         {
-            return mid;
+            return tengah;
         }
-        else if (arr[mid] < target)
+        else if (arr[tengah] < target)
         {
-            left = mid + 1;
+            kiri = tengah + 1;
         }
         else
         {
-            right = mid - 1;
+            kanan = tengah - 1;
         }
     }
     return -1;
 }
 
-void findIndices(int originalArr[], int size, int target)
+void tampilkanData(int originalArr[], int size, int target)
 {
     bool found = false;
     for (int i = 0; i < size; i++)
@@ -93,7 +93,7 @@ int main()
     int index = binarySearch(sortedArr, size, input);
     if (index != -1)
     {
-        findIndices(arr, size, input);
+        tampilkanData(arr, size, input);
     }
     else
     {
