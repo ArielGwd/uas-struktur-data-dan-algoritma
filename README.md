@@ -1,4 +1,4 @@
-# :desktop_computer: UAS Struktur Data dan Algoritma IT201
+![image](https://github.com/user-attachments/assets/de95c116-f1b1-4c73-b77d-1ad06e96bbad)# :desktop_computer: UAS Struktur Data dan Algoritma IT201
 berikut adalah penjelasan dari kode program terkait soal UAS Struktur Data dan Algoritma
 
 # :scroll: Penjelasan
@@ -286,6 +286,7 @@ kemudian disini kita melakukan pengecakan lagi setelah perulangan selesai yaitu 
 
 
 ### Bagian fungsi main
+```c++
 int main()
 {
     int arr[] = {19, 40, 10, 90, 2, 50, 60, 50, 1};
@@ -314,6 +315,7 @@ int main()
 
     return 0;
 }
+```
 Untuk bagian fungsi main, kita dapat melihat terdapat variabel array `arr[]` dengan data `{19, 40, 10, 90, 2, 50, 60, 50, 1}`.
 kemudian terdapat variabel integer `size`, dimana untuk menghitung jumlah elemen dalam array. dan juga terdapat sebuah variabel array baru yaitu `sortedArr[size]` dimana untuk menyimpan elemen yang diurutkan.
 kemudian terdapat perulangan `for` yaitu `for (int i = 0; i < size; ++i)`, dimana untuk menyalin elemen array asli yaitu variabel `arr[]` ke array baru yaitu `sortedArr[i]`.
@@ -328,7 +330,14 @@ Kemudian disini kita melakukan perkondisian untuk menampilkan data. dimana kondi
 
 
 ## Nomor 3
+Pada soal terdapat ketentuan memilih salah satu topik yaitu Tree, Hash, Graph. Yang dimana topik-topik tersebut dipilih untuk pembuatan video presentasi.
 
+Disini saya memilih topik Tree untuk topik pembuatan video presentasinya. Berikut adalah link youtube dari hasil presentasi saya:
 
+:link: 〔 UAS 〕Struktrur Data dan Algoritma - Tree (Binary Tree): [https://youtu.be/Czj91UjSNac](https://youtu.be/Czj91UjSNac)
+
+Berikut adalah kode program dari topik terkait:
+
+:link: Kode Program Nomor 3: [https://github.com/ArielGwd/uas-struktur-data-dan-algoritma/blob/main/nomor3-binary-tree.cpp](https://github.com/ArielGwd/uas-struktur-data-dan-algoritma/blob/main/nomor3-binary-tree.cpp)
 
 
